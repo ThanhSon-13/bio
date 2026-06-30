@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bảng giá dịch vụ - Hoa Lê</title>
+  <link rel="stylesheet" href="./gallery.css" />
+</head>
+<body>
+  <main class="page">
+    <div class="wrap">
+      <nav class="topbar">
+        <a class="back-btn" href="./index.html">← Về trang bio</a>
+        <a class="zalo-btn" href="https://zalo.me/0362281930" target="_blank" rel="noopener noreferrer">Nhắn Zalo ngay ↗</a>
+      </nav>
+
+      <section class="hero">
+        <div class="badge">SERVICE PRICE</div>
+        <h1>Bảng giá dịch vụ</h1>
+        <p class="lead">Xem bảng giá dịch vụ rõ ràng trước khi liên hệ. Bấm vào từng ảnh để phóng to và xem chi tiết.</p>
+      </section>
+
+      <section class="panel">
+        <h2>Up ảnh vào trang này</h2>
+        <p>
+          Muốn ảnh hiện công khai trên web, bạn tạo thư mục <b>images</b> cạnh file HTML,
+          rồi upload ảnh theo đúng tên slot bên dưới. Ví dụ: <b>bang-gia-1.jpg</b>, <b>bang-gia-2.jpg</b>.
+          Ô chọn ảnh này chỉ dùng để xem thử trên máy, không lưu ảnh lên hosting.
+        </p>
+
+        <label class="upload-box" for="localPreviewInput">
+          <input id="localPreviewInput" type="file" accept="image/*" multiple>
+          <div>
+            <strong>Chọn ảnh để xem thử</strong>
+            <span>Ảnh preview sẽ hiện ngay bên dưới</span>
+          </div>
+        </label>
+
+        <div id="previewGrid" class="gallery preview-grid"></div>
+      </section>
+
+      <h2 class="gallery-title">Ảnh chính thức</h2>
+      <section class="gallery">
+        <a class="photo-card" href="./images/bang-gia-1.jpg" target="_blank" rel="noopener noreferrer">
+          <img data-slot src="./images/bang-gia-1.jpg" alt="Bảng giá 1">
+          <div class="missing-ui">
+            <div>
+              <strong>Bảng giá 1</strong>
+              <span>Đặt ảnh tên <b>bang-gia-1.jpg</b> vào thư mục <b>images</b>.</span>
+            </div>
+          </div>
+        </a>
+        <a class="photo-card" href="./images/bang-gia-2.jpg" target="_blank" rel="noopener noreferrer">
+          <img data-slot src="./images/bang-gia-2.jpg" alt="Bảng giá 2">
+          <div class="missing-ui">
+            <div>
+              <strong>Bảng giá 2</strong>
+              <span>Đặt ảnh tên <b>bang-gia-2.jpg</b> vào thư mục <b>images</b>.</span>
+            </div>
+          </div>
+        </a>
+        <a class="photo-card" href="./images/bang-gia-3.jpg" target="_blank" rel="noopener noreferrer">
+          <img data-slot src="./images/bang-gia-3.jpg" alt="Bảng giá 3">
+          <div class="missing-ui">
+            <div>
+              <strong>Bảng giá 3</strong>
+              <span>Đặt ảnh tên <b>bang-gia-3.jpg</b> vào thư mục <b>images</b>.</span>
+            </div>
+          </div>
+        </a>
+        <a class="photo-card" href="./images/bang-gia-4.jpg" target="_blank" rel="noopener noreferrer">
+          <img data-slot src="./images/bang-gia-4.jpg" alt="Bảng giá 4">
+          <div class="missing-ui">
+            <div>
+              <strong>Bảng giá 4</strong>
+              <span>Đặt ảnh tên <b>bang-gia-4.jpg</b> vào thư mục <b>images</b>.</span>
+            </div>
+          </div>
+        </a>
+        <a class="photo-card" href="./images/bang-gia-5.jpg" target="_blank" rel="noopener noreferrer">
+          <img data-slot src="./images/bang-gia-5.jpg" alt="Bảng giá 5">
+          <div class="missing-ui">
+            <div>
+              <strong>Bảng giá 5</strong>
+              <span>Đặt ảnh tên <b>bang-gia-5.jpg</b> vào thư mục <b>images</b>.</span>
+            </div>
+          </div>
+        </a>
+        <a class="photo-card" href="./images/bang-gia-6.jpg" target="_blank" rel="noopener noreferrer">
+          <img data-slot src="./images/bang-gia-6.jpg" alt="Bảng giá 6">
+          <div class="missing-ui">
+            <div>
+              <strong>Bảng giá 6</strong>
+              <span>Đặt ảnh tên <b>bang-gia-6.jpg</b> vào thư mục <b>images</b>.</span>
+            </div>
+          </div>
+        </a>
+      </section>
+
+      <p class="footer-note">© 2026 Hoa Lê</p>
+    </div>
+  </main>
+
+  <script src="./gallery.js"></script>
+</body>
+</html>

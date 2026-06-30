@@ -1,0 +1,14 @@
+HUONG DAN SUA LOI FILE NOT FOUND
+
+1. Giai nen file zip truoc.
+2. Mo file index.html trong cung mot thu muc voi cac file:
+   - style.css
+   - script.js
+   - bang-gia.html
+   - feedback.html
+   - gallery.css
+   - gallery.js
+   - thu muc images
+3. Khi up Netlify/GitHub Pages, phai up TOAN BO thu muc bio_fixed_full, khong chi up rieng index.html.
+4. Anh bang gia dat vao images voi ten bang-gia-1.jpg, bang-gia-2.jpg...
+5. Anh feedback dat vao images voi ten feedback-1.jpg, feedback-2.jpg...
